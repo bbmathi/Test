@@ -1,0 +1,1 @@
+SELECT FIRST_NAME , LAST_NAME, SALARY FROM employees where salary>(SELECT AVG(SALARY) FROM employees where department_id=1) and department_id=1;

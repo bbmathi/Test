@@ -1,0 +1,1 @@
+SELECT salesman_id "ID" , name, 'Salesman' from Salesman where city=' London' UNION (SELECT customer_id "ID" ,  cust_name, 'Customer' FROM Customer where city = 'London');
